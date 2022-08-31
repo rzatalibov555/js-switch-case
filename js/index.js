@@ -34,14 +34,14 @@ function show_result(){
         case 3:
         case 4:
         case "5":
-            document.getElementsByTagName('BODY')[0].style.backgroundImage = 'url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/09/Mortal-Kombat-why-subzero-is-the-villain-scorpions-rival.jpg")'
+            subzero()
             break;
         case 6:
         case 7:
         case 8:
         case 9:
         case 10:
-            console.log("no")
+            myAnime()
           break;
         case 11:
             console.log("close")
@@ -52,6 +52,12 @@ function show_result(){
     
 }
 
+function subzero(){
+    document.getElementsByTagName('BODY')[0].style.backgroundImage = 'url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/09/Mortal-Kombat-why-subzero-is-the-villain-scorpions-rival.jpg")'
+}
 
+function myAnime(){
+    document.getElementsByTagName('BODY')[0].style.animationName = "demo"
+}
 
 // ------------------------------

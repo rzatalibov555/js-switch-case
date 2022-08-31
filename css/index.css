@@ -1,5 +1,17 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
+
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes demo{
+    from{
+        background: red;
+    }
+
+    to{
+        background: blue;
+    }
+}
